@@ -1,14 +1,14 @@
 %define name	common-licenses
 %define version	1.0
-%define rel	11
+%define rel	12
 %define release	%mkrel %{rel}
 
 Summary:	Contains the various common licenses uses by the distribution
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Source0:	%{name}.tar.bz2
-License:	GPL
+Source0:	%{name}.tar.lzma
+License:	GPLv2+
 Group:		System/Base
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
