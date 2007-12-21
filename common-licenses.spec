@@ -11,6 +11,7 @@ Source0:	%{name}.tar.lzma
 License:	GPLv2+
 Group:		System/Base
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Contains the various common licenses uses by the distribution. Instead of
