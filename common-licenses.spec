@@ -1,6 +1,6 @@
 %define name	common-licenses
 %define version	1.0
-%define rel	14
+%define rel	15
 %define release	%mkrel %{rel}
 
 Summary:	Contains the various common licenses uses by the distribution
