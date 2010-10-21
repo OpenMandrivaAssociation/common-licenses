@@ -1,13 +1,8 @@
-%define name	common-licenses
-%define version	1.0
-%define rel	16
-%define release	%mkrel %{rel}
-
 Summary:	Contains the various common licenses uses by the distribution
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
-Source0:	%{name}.tar.lzma
+Name:		common-licenses
+Version:	1.1
+Release:	%mkrel 1
+Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2+
 Group:		System/Base
 BuildArch:	noarch
@@ -34,5 +29,3 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_datadir}/%{name}
-
-
