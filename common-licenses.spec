@@ -1,7 +1,7 @@
 Summary:	Contains the various common licenses uses by the distribution
 Name:		common-licenses
 Version:	1.1
-Release:	%mkrel 1
+Release:	%mkrel 2
 Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2+
 Group:		System/Base
