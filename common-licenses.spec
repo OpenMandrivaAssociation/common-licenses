@@ -1,7 +1,7 @@
 Summary:	Contains the various common licenses uses by the distribution
 Name:		common-licenses
 Version:	1.1
-Release:	18
+Release:	19
 License:	GPLv2+
 Group:		System/Base
 Source0:	%{name}-%{version}.tar.xz
